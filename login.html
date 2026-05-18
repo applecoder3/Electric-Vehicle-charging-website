@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="login">
+      <img src="images/studentcenter.jpg" alt="Clock Tower" />
+      <form action="" class="login-form">
+        <h1 class="login-title">Login</h1>
+        <div class="login-inputs">
+          <div class="login-box">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder=""
+              class="login-input"
+              required
+            />
+            <label for="email" class="login-label">Email ID</label>
+            <i class="ri-mail-line"></i>
+          </div>
+          <div class="login-box">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder=""
+              class="login-input"
+              required
+            />
+            <label for="password" class="login-label">Password</label>
+            <i class="ri-lock-password-line"></i>
+          </div>
+        </div>
+        <div class="login-check">
+          <div class="login-check-box">
+            <input type="checkbox" name="checkbox" class="login-check-input" />
+            <label for="user-check" class="login-check-label"
+              >Remember me</label
+            >
+          </div>
+          <a href="#" class="login-forget">Forgot Password?</a>
+        </div>
+        <button type="submit" class="login-button">Login</button>
+        <div class="login-register">No account? <a href="#">Register</a></div>
+      </form>
+    </div>
+  </body>
+</html>
